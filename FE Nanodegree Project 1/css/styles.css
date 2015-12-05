@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.wide-picture {
+	width: 50vw;
+}
+
+@media screen and (max-width: 400px) {
+	.wide-picture {
+		width: 100vw;
+	}
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-size {
+	font-size: 20px;
+}
+
+.h4-size {
+	font-size: 10px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+@media (min-width: 768px) {
+	.title-size {
+		font-size: 60px;
+	}
+}
+
+
